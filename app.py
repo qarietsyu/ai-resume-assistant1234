@@ -11,7 +11,7 @@ from google import genai
 from google.genai import types
 from pypdf import PdfReader
 
-DEFAULT_MODEL = "gemini-3.8-flash"
+DEFAULT_MODEL = "gemini-3.5-flash"
 MAX_CHARS = 20000  # keep prompts small and fast
 
 PROMPT = """You are an expert ATS (Applicant Tracking System) analyst and resume coach.
